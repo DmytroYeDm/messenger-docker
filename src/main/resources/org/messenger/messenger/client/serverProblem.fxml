@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="47.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вибачте, виникли проблеми з сервером" textAlignment="CENTER" wrappingWidth="391.13671875">
+         <font>
+            <Font name="System Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="340.0" fitWidth="296.0" layoutX="95.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/serverProblem.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

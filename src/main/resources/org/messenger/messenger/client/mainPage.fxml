@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.ScrollPane?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.messenger.messenger.client.MessengerControllers">
+   <right>
+      <VBox alignment="TOP_CENTER" prefHeight="582.0" prefWidth="322.0" style="-fx-background-color: lightgray;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="133.0" prefWidth="322.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="44.0" prefWidth="322.0" spacing="10.0" style="-fx-background-color: lightblue;">
+                     <children>
+                        <ImageView fitHeight="29.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../images/magnifier.png" />
+                           </image>
+                        </ImageView>
+                        <TextField fx:id="userInput" prefHeight="28.0" prefWidth="206.0"/>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <ListView fx:id="listOfUsers" prefHeight="455.0" prefWidth="322.0" VBox.vgrow="ALWAYS"/>
+         </children>
+      </VBox>
+   </right>
+   <center>
+      <VBox fx:id="chatPane" prefHeight="582.0" prefWidth="631.0" BorderPane.alignment="CENTER">
+      </VBox>
+   </center>
+</BorderPane>
